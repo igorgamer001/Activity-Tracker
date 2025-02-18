@@ -13,6 +13,10 @@ function logActivity(user, action) {
     fs.appendFile(logFile, logEntry, (err) => {
         if (err) console.error('Error writing to log file:', err);
     });
+
+
+
+    
 }
 
 // Simulated user actions
