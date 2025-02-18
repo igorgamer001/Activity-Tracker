@@ -6,6 +6,8 @@ const path = require('path');
 // Log file path
 const logFile = path.join(__dirname, 'user_activity_log.txt');
 
+
+
 // Function to log user activity
 function logActivity(user, action) {
     const timestamp = new Date().toISOString();
