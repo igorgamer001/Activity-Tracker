@@ -14,9 +14,6 @@ function logActivity(user, action) {
         if (err) console.error('Error writing to log file:', err);
     });
 
-
-
-    
 }
 
 // Simulated user actions
