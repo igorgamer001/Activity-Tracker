@@ -16,9 +16,6 @@ function logActivity(user, action) {
 
 }
 
-
-
-
 // Simulated user actions
 const users = ['Alice', 'Bob', 'Charlie', 'David'];
 const actions = ['Login', 'Logout', 'Viewed Page', 'Clicked Button', 'Made Purchase'];
